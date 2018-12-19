@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28B91CFA21C9E9DB00AA5F94 /* main-minStack.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28B91CCA21C8DE9700AA5F94 /* main-minStack.mm */; };
+		28B91D0E21CA069B00AA5F94 /* main-lengthOfLongestSubstring.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28B91D0D21CA069B00AA5F94 /* main-lengthOfLongestSubstring.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +32,10 @@
 		28B91CFF21C9F45800AA5F94 /* main-两数之和.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-两数之和.mm"; sourceTree = "<group>"; };
 		28B91D0021C9F45800AA5F94 /* main-交换相邻节点.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-交换相邻节点.mm"; sourceTree = "<group>"; };
 		28B91D0121C9F45800AA5F94 /* main-LRUCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-LRUCache.mm"; sourceTree = "<group>"; };
+		28B91D0921C9F47F00AA5F94 /* main-reverseList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-reverseList.mm"; sourceTree = "<group>"; };
+		28B91D0B21CA01A800AA5F94 /* main-addNumbers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-addNumbers.mm"; sourceTree = "<group>"; };
+		28B91D0D21CA069B00AA5F94 /* main-lengthOfLongestSubstring.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-lengthOfLongestSubstring.mm"; sourceTree = "<group>"; };
+		28B91D0F21CA1D7400AA5F94 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		28B91CC921C8DE9700AA5F94 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				28B91D0F21CA1D7400AA5F94 /* README.md */,
 				28B91CFB21C9F45800AA5F94 /* main-回文数.mm */,
 				28B91D0021C9F45800AA5F94 /* main-交换相邻节点.mm */,
 				28B91CFF21C9F45800AA5F94 /* main-两数之和.mm */,
@@ -72,6 +77,9 @@
 				28B91CFD21C9F45800AA5F94 /* main-QuickSort.mm */,
 				28B91CFC21C9F45800AA5F94 /* main-Z型打印二叉树.mm */,
 				28B91CCA21C8DE9700AA5F94 /* main-minStack.mm */,
+				28B91D0921C9F47F00AA5F94 /* main-reverseList.mm */,
+				28B91D0B21CA01A800AA5F94 /* main-addNumbers.mm */,
+				28B91D0D21CA069B00AA5F94 /* main-lengthOfLongestSubstring.mm */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -132,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B91CFA21C9E9DB00AA5F94 /* main-minStack.mm in Sources */,
+				28B91D0E21CA069B00AA5F94 /* main-lengthOfLongestSubstring.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
