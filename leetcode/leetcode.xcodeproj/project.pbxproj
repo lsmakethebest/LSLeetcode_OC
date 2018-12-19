@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28B91CF821C9E65500AA5F94 /* main-Z型打印二叉树.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28B91CE121C8DF8D00AA5F94 /* main-Z型打印二叉树.mm */; };
+		28B91CFA21C9E9DB00AA5F94 /* main-minStack.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28B91CCA21C8DE9700AA5F94 /* main-minStack.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,15 +24,14 @@
 
 /* Begin PBXFileReference section */
 		28B91CC721C8DE9700AA5F94 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
-		28B91CCA21C8DE9700AA5F94 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		28B91CE021C8DF8D00AA5F94 /* main-回文数.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-回文数.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-回文数.mm"; sourceTree = "<group>"; };
-		28B91CE121C8DF8D00AA5F94 /* main-Z型打印二叉树.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-Z型打印二叉树.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-Z型打印二叉树.mm"; sourceTree = "<group>"; };
-		28B91CE221C8DF8D00AA5F94 /* main-QuickSort.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-QuickSort.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-QuickSort.mm"; sourceTree = "<group>"; };
-		28B91CE321C8DF8D00AA5F94 /* main-螺旋矩阵.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-螺旋矩阵.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-螺旋矩阵.mm"; sourceTree = "<group>"; };
-		28B91CE421C8DF8D00AA5F94 /* main-两数之和.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-两数之和.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-两数之和.mm"; sourceTree = "<group>"; };
-		28B91CE521C8DF8D00AA5F94 /* main-交换相邻节点.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-交换相邻节点.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-交换相邻节点.mm"; sourceTree = "<group>"; };
-		28B91CE621C8DF8D00AA5F94 /* main-LRUCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-LRUCache.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-LRUCache.mm"; sourceTree = "<group>"; };
-		28B91CEF21C8E02700AA5F94 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		28B91CCA21C8DE9700AA5F94 /* main-minStack.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-minStack.mm"; sourceTree = "<group>"; };
+		28B91CFB21C9F45800AA5F94 /* main-回文数.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-回文数.mm"; sourceTree = "<group>"; };
+		28B91CFC21C9F45800AA5F94 /* main-Z型打印二叉树.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-Z型打印二叉树.mm"; sourceTree = "<group>"; };
+		28B91CFD21C9F45800AA5F94 /* main-QuickSort.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-QuickSort.mm"; sourceTree = "<group>"; };
+		28B91CFE21C9F45800AA5F94 /* main-螺旋矩阵.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-螺旋矩阵.mm"; sourceTree = "<group>"; };
+		28B91CFF21C9F45800AA5F94 /* main-两数之和.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-两数之和.mm"; sourceTree = "<group>"; };
+		28B91D0021C9F45800AA5F94 /* main-交换相邻节点.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-交换相邻节点.mm"; sourceTree = "<group>"; };
+		28B91D0121C9F45800AA5F94 /* main-LRUCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-LRUCache.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +64,14 @@
 		28B91CC921C8DE9700AA5F94 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				28B91CEF21C8E02700AA5F94 /* README.md */,
-				28B91CE021C8DF8D00AA5F94 /* main-回文数.mm */,
-				28B91CE521C8DF8D00AA5F94 /* main-交换相邻节点.mm */,
-				28B91CE421C8DF8D00AA5F94 /* main-两数之和.mm */,
-				28B91CE321C8DF8D00AA5F94 /* main-螺旋矩阵.mm */,
-				28B91CE621C8DF8D00AA5F94 /* main-LRUCache.mm */,
-				28B91CE221C8DF8D00AA5F94 /* main-QuickSort.mm */,
-				28B91CE121C8DF8D00AA5F94 /* main-Z型打印二叉树.mm */,
-				28B91CCA21C8DE9700AA5F94 /* main.mm */,
+				28B91CFB21C9F45800AA5F94 /* main-回文数.mm */,
+				28B91D0021C9F45800AA5F94 /* main-交换相邻节点.mm */,
+				28B91CFF21C9F45800AA5F94 /* main-两数之和.mm */,
+				28B91CFE21C9F45800AA5F94 /* main-螺旋矩阵.mm */,
+				28B91D0121C9F45800AA5F94 /* main-LRUCache.mm */,
+				28B91CFD21C9F45800AA5F94 /* main-QuickSort.mm */,
+				28B91CFC21C9F45800AA5F94 /* main-Z型打印二叉树.mm */,
+				28B91CCA21C8DE9700AA5F94 /* main-minStack.mm */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -134,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B91CF821C9E65500AA5F94 /* main-Z型打印二叉树.mm in Sources */,
+				28B91CFA21C9E9DB00AA5F94 /* main-minStack.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
