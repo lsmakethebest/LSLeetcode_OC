@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28B91CEE21C8DFA800AA5F94 /* main-LRUCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28B91CE621C8DF8D00AA5F94 /* main-LRUCache.mm */; };
+		28B91CF821C9E65500AA5F94 /* main-Z型打印二叉树.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28B91CE121C8DF8D00AA5F94 /* main-Z型打印二叉树.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		28B91CC721C8DE9700AA5F94 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
-		28B91CCA21C8DE9700AA5F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28B91CCA21C8DE9700AA5F94 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		28B91CE021C8DF8D00AA5F94 /* main-回文数.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-回文数.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-回文数.mm"; sourceTree = "<group>"; };
 		28B91CE121C8DF8D00AA5F94 /* main-Z型打印二叉树.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-Z型打印二叉树.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-Z型打印二叉树.mm"; sourceTree = "<group>"; };
 		28B91CE221C8DF8D00AA5F94 /* main-QuickSort.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "main-QuickSort.mm"; path = "../../../Desktop/代码/suanfa/suanfa/main-QuickSort.mm"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 				28B91CE621C8DF8D00AA5F94 /* main-LRUCache.mm */,
 				28B91CE221C8DF8D00AA5F94 /* main-QuickSort.mm */,
 				28B91CE121C8DF8D00AA5F94 /* main-Z型打印二叉树.mm */,
-				28B91CCA21C8DE9700AA5F94 /* main.m */,
+				28B91CCA21C8DE9700AA5F94 /* main.mm */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B91CEE21C8DFA800AA5F94 /* main-LRUCache.mm in Sources */,
+				28B91CF821C9E65500AA5F94 /* main-Z型打印二叉树.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
