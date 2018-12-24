@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28B91D0E21CA069B00AA5F94 /* main-11.lengthOfLongestSubstring.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28B91D0D21CA069B00AA5F94 /* main-11.lengthOfLongestSubstring.mm */; };
+		28DE9A6F21D103CA002660FA /* main-13.mergeTwoArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28DE9A6E21D103CA002660FA /* main-13.mergeTwoArray.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +36,8 @@
 		28B91D0B21CA01A800AA5F94 /* main-10.addNumbers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-10.addNumbers.mm"; sourceTree = "<group>"; };
 		28B91D0D21CA069B00AA5F94 /* main-11.lengthOfLongestSubstring.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-11.lengthOfLongestSubstring.mm"; sourceTree = "<group>"; };
 		28B91D0F21CA1D7400AA5F94 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		28DE9A6C21D0FD3F002660FA /* main-12.StackToQueu.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-12.StackToQueu.mm"; sourceTree = "<group>"; };
+		28DE9A6E21D103CA002660FA /* main-13.mergeTwoArray.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "main-13.mergeTwoArray.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,8 @@
 				28B91D0921C9F47F00AA5F94 /* main-9.reverseList.mm */,
 				28B91D0B21CA01A800AA5F94 /* main-10.addNumbers.mm */,
 				28B91D0D21CA069B00AA5F94 /* main-11.lengthOfLongestSubstring.mm */,
+				28DE9A6C21D0FD3F002660FA /* main-12.StackToQueu.mm */,
+				28DE9A6E21D103CA002660FA /* main-13.mergeTwoArray.mm */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -140,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B91D0E21CA069B00AA5F94 /* main-11.lengthOfLongestSubstring.mm in Sources */,
+				28DE9A6F21D103CA002660FA /* main-13.mergeTwoArray.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
